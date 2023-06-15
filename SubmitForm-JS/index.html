@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="submitForm">
+        <div class="divTitle">
+            <h1 class="submitFormTitle">InterTec Submit Form</h1>
+        </div>
+
+        <form class="mainForm" id="formaMain" onsubmit="event.preventDefault(); submitFormFunction()" autocomplete="off">
+            <input type="text" id="IdNumber" placeholder="ID-Number will automatically be generated" disabled>
+            <input type="text" id="fullName" placeholder="Full Name" name="fullName">
+            <input type="date" id="birthday" name="birthday">
+            <input type="number" id="points" placeholder="Points" name="points">
+
+            <div class="gender">
+                <!-- <input type="radio" name="male" value="male" id="male">
+                    <label for="male" id="maleLabel">Male</label>
+
+
+                    <input type="radio" name="female" value="female" id="female">
+                    <label for="female" id="femaleLabel">Female</label> -->
+                <div>
+                    <input type="radio" name="gender" value="fgh" id="male">
+                    <label for="css" id="maleLabel">MALE</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="fgh" id="female">   <label id="femaleLabel" for="javascript">FEMALE</label>
+                </div>
+            </div>
+            <div class="submitButton">
+                <input type="submit" value="SUBMIT" id="sbmButton" name="sbmButton">
+            </div>
+
+        </form>
+    </div>
+    </div>
+
+
+
+    <div class="tableData">
+        <table class="table1" id="tableCRUD">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>FullName</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Points</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+
+</html>

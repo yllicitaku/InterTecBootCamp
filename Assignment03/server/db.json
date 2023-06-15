@@ -1,0 +1,111 @@
+{
+    "students": [{
+            "fname": "ma",
+            "lname": "mds",
+            "bday": "2022-09-13",
+            "id": 1
+        },
+        {
+            "fname": "1111",
+            "lname": "11111",
+            "bday": "2022-09-20",
+            "id": 2
+        },
+        {
+            "fname": "11111",
+            "lname": "111111",
+            "bday": "2022-09-14",
+            "id": 3
+        },
+        {
+            "fname": "shefqet",
+            "lname": "Mujku",
+            "bday": "2022-09-05",
+            "id": 5
+        }
+    ],
+    "courses": [{
+            "id": "A100",
+            "title": "JavaScript Fundamentals",
+            "type": "class"
+        },
+        {
+            "id": "A200",
+            "title": "HTML Fundamentals",
+            "type": "class"
+        },
+        {
+            "id": "A300",
+            "title": "CSS Fundamentals",
+            "type": "class"
+        },
+        {
+            "id": "A400",
+            "title": "React Fundamentals",
+            "type": "class"
+        }
+    ],
+    "tests": [{
+            "id": 1,
+            "student": 1,
+            "course": "A100",
+            "result": "60%"
+        },
+        {
+            "id": 2,
+            "student": 2,
+            "course": "A100",
+            "result": "56%"
+        },
+        {
+            "id": 3,
+            "student": 3,
+            "course": "A100",
+            "result": "66%"
+        }
+    ],
+    "classes": [{
+            "id": 1,
+            "classid": "C1",
+            "student": 1,
+            "course": "A100",
+            "status": "ongoing"
+        },
+        {
+            "id": 2,
+            "classid": "C1",
+            "student": 2,
+            "course": "A100",
+            "status": "ongoing"
+        },
+        {
+            "id": 3,
+            "classid": "C1",
+            "student": 3,
+            "course": "A100",
+            "status": "ongoing"
+        },
+        {
+            "id": 4,
+            "classid": "C2",
+            "student": 4,
+            "course": "A100",
+            "status": "ongoing"
+        },
+        {
+            "id": 5,
+            "classid": "C2",
+            "student": 5,
+            "course": "A100",
+            "status": "ongoing"
+        },
+        {
+            "id": 6,
+            "classid": "C1",
+            "student": 1,
+            "course": "A100",
+            "status": "ongoing"
+        }
+    ]
+
+}

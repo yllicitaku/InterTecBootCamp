@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+#safety,
+#safety {
+    color: black;
+}
+
+#modern {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk";
+}
+
+#section {
+    color: #ffa726;
+}
+
+/* img {
+} */
+/* img {
+     float: left;
+     height: 50rem;
+     background-size: cover;
+ } */
+/* @media only screen and (max-width: 992px) {
+     .cr {
+         width: 100vw;
+         height: '200px';
+         margin: auto;
+         box-shadow: 5px 10px 8px 10px #888888;
+     }
+ } */
+
+@media only screen and (max-width: 600px) {
+    #safety,
+    #modern2,
+    #modern {
+        font-size: 20px;
+    }
+    .btn1 {
+        font-size: 10px;
+    }
+}

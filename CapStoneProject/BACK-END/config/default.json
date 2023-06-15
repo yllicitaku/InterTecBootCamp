@@ -1,0 +1,7 @@
+{
+    "MONGODB_URI": "mongodb://localhost:27017/rentCarDB",
+    "PORT": 3300,
+    "APPID": "capstone_rental_appID",
+    "KEY": "weLoveTheBootCamp69",
+    "VALIDITY": 360000
+}

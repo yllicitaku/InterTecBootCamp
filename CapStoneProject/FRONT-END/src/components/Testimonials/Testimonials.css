@@ -1,0 +1,7 @@
+#brands {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: screen;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

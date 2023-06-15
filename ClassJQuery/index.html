@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .error {
+            color: red;
+            font-style: italic;
+        }
+        
+        .class {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            border: 1px solid black;
+            margin: auto;
+        }
+        
+        input {
+            width: 30rem;
+            height: 1.8rem;
+        }
+        
+        input {
+            margin: 10px;
+        }
+        
+        input[type='submit'] {
+            margin: 20px 0 0 0;
+            width: 10rem;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <form id="formaID">
+        <div class="class">
+            <h1>TEST</h1>
+            <div>
+
+                <input type="text" id="userName" name="username" placeholder="UserName">
+            </div>
+
+            <div>
+
+                <input type="number" id="age" name="age" placeholder="Age">
+
+            </div>
+
+            <div>
+                <input type="submit" value="SUBMIT">
+            </div>
+        </div>
+
+    </form>
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,19 @@
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.BUlgaria {
+    border: 1px solid black;
+}
+
+.emri2 {
+    color: red;
+    font-size: 40px;
+}

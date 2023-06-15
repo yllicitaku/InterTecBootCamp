@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('bck.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.submitForm {
+    width: 50%;
+    margin: 2rem auto 2rem auto;
+    border: 3px solid white;
+    border-radius: 2rem;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.submitFormTitle {
+    color: white;
+    font-size: 3rem;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#IdNumber,
+#fullName,
+#birthday,
+#points {
+    width: 30rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#maleLabel,
+#femaleLabel {
+    font-size: 1.5rem;
+    color: white;
+}
+
+input[type=radio] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: aliceblue;
+}
+
+input[type=submit] {
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid black;
+    background-color: rgb(0, 9, 0);
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(83, 199, 83);
+    color: rgb(18, 1, 1);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+/* TABLE */
+
+.tableData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.table1 {
+    border: 3px solid rgb(255, 255, 255);
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.table1 tr,
+td {
+    border: 1px solid #ddd;
+}
+
+.tableData th {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+
+tbody td {
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgb(82, 82, 71);
+    padding: 5px;
+}
+
+.submitButton {
+    margin: 1rem 0 1rem 0;
+}
+
+.EDIT {
+    background-color: green;
+}
+
+.DELETE {
+    background-color: red;
+}
+
+.error {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    ;
+    font-size: 1.2rem;
+    background-color: rgb(255, 253, 253);
+    border: 1px solid red;
+}
+
+#IdNumber {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
